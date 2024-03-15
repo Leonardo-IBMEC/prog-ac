@@ -1,3 +1,10 @@
+"""
+Programação Estruturada
+2024.1
+
+AC1
+"""
+
 ### Exercício 1: equações de segundo grau
 
 # Solicita os parâmetros ao usuário
