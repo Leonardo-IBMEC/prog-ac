@@ -11,14 +11,14 @@ delta = b**2 - 4*a*c
 # Verifica se existem raízes reais
 if delta > 0:
     # Calcula as duas raízes usando a fórmula de Bhaskara
-    raiz1 = (-b + (delta)**1/2) / (2*a)
-    raiz2 = (-b - (delta)**1/2) / (2*a)
-    print(f"A primeira raiz da equação é {raiz1}")
-    print(f"A segunda raiz da equação é {raiz2}")
+    raiz1 = (-b + (delta)**(1/2)) / (2*a)
+    raiz2 = (-b - (delta)**(1/2)) / (2*a)
+    print("A primeira raiz da equação é", raiz1)
+    print("A segunda raiz da equação é", raiz2)
 elif delta == 0:
     # Calcula a única raiz quando o delta for zero
     raiz = -b / (2*a)
-    print(f"A raiz da equação é {raiz}")
+    print("A raiz da equação é", raiz)
 else:
     # Não há raizes reais
     print("A equação não possui raízes reais.")
